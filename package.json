@@ -7,10 +7,12 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue-jsx": "^1.2.0",
+    "honlant-ui": "^0.0.5",
     "vitepress": "^0.20.1",
     "vitepress-theme-demoblock": "^1.4.1"
   },
   "dependencies": {
-    "@types/node": "^16.11.7"
+    "@types/node": "^16.11.7",
+    "vue": "3.2.37"
   }
 }

@@ -4,35 +4,35 @@
  * @Author: hongweixun
  * @Date: 2022-10-26 10:54:47
  * @LastEditors: hongweixun
- * @LastEditTime: 2022-10-26 13:48:28
+ * @LastEditTime: 2022-10-26 13:45:01
  */
 module.exports = {
   title: 'HonLant',
   description: 'Just playing around.',
+  lang: 'en-US',
   themeConfig: {
-    logo: '/public/favicon.ico',
     // 展示搜索框
     algolia: {
-      appKey: 'your_api_key',
-      indexName: 'index_name',
+      appKey: '',
+      indexName: '',
       searchParameters: {
         faeFilters: ['tags:guide,api']
       }
     },
     nav: [
-      {
-        text: '指南',
-        link: '/',
-      },
-      {
-        text: '组件',
-        link: '/components/button/',
-      },
-      { text: 'gitee', link: 'https://gitee.com/hvision' },
-      {
-        text: 'GitHub',
-        link: 'https://github.com/hongweixun',
-      },
+      // {
+      //   text: '指南',
+      //   link: '/',
+      // },
+      // {
+      //   text: '组件',
+      //   link: '/components/button/',
+      // },
+      // { text: 'gitee', link: 'https://gitee.com/hvision' },
+      // {
+      //   text: 'GitHub',
+      //   link: 'https://github.com/hongweixun',
+      // },
     ],
     sidebar: {
       '/': getDemoSidebar(),

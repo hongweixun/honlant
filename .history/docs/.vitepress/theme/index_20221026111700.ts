@@ -4,7 +4,7 @@
  * @Author: hongweixun
  * @Date: 2022-10-26 10:54:47
  * @LastEditors: hongweixun
- * @LastEditTime: 2022-10-26 13:51:19
+ * @LastEditTime: 2022-10-26 11:17:01
  */
 
 // import Button from '../../../qzui/button/src/button'
@@ -15,7 +15,6 @@ import Theme from 'vitepress/dist/client/theme-default'
 
 // 主题样式
 import 'vitepress-theme-demoblock/theme/styles/index.css'
-import './global.css'
 /**
  * register-components.js使用脚本自动创建
  * // package.json

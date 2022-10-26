@@ -4,17 +4,21 @@
  * @Author: hongweixun
  * @Date: 2022-10-26 10:54:47
  * @LastEditors: hongweixun
- * @LastEditTime: 2022-10-26 13:48:28
+ * @LastEditTime: 2022-10-26 11:47:12
  */
 module.exports = {
   title: 'HonLant',
   description: 'Just playing around.',
+  lang: 'en-US',
   themeConfig: {
-    logo: '/public/favicon.ico',
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022 hongweixun and HonLant contributors'
+    },
     // 展示搜索框
     algolia: {
-      appKey: 'your_api_key',
-      indexName: 'index_name',
+      appKey: '',
+      indexName: '',
       searchParameters: {
         faeFilters: ['tags:guide,api']
       }

@@ -4,13 +4,13 @@
  * @Author: hongweixun
  * @Date: 2022-10-26 10:54:47
  * @LastEditors: hongweixun
- * @LastEditTime: 2022-10-26 13:48:28
+ * @LastEditTime: 2022-10-26 13:46:08
  */
 module.exports = {
   title: 'HonLant',
   description: 'Just playing around.',
+  lang: 'en-US',
   themeConfig: {
-    logo: '/public/favicon.ico',
     // 展示搜索框
     algolia: {
       appKey: 'your_api_key',
