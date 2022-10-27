@@ -4,7 +4,7 @@
  * @Author: hongweixun
  * @Date: 2022-10-22 09:35:55
  * @LastEditors: hongweixun
- * @LastEditTime: 2022-10-26 14:05:57
+ * @LastEditTime: 2022-10-26 15:41:39
 -->
 # Loading正在加载
 ## 示例图
@@ -17,7 +17,7 @@
 ```vue
 <template>
 <hl-button type="primary" effect="dark" @click="showLoading">点击查看效果</hl-button>
-<hl-loading :loading="loading" type="circular" vertical>加载中...</hl-loading>
+<hl-loading :loading="loading" type="circular" vertical loadingText="加载中..."></hl-loading>
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue'

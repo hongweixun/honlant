@@ -4,11 +4,12 @@
  * @Author: hongweixun
  * @Date: 2022-10-26 10:54:47
  * @LastEditors: hongweixun
- * @LastEditTime: 2022-10-26 13:48:28
+ * @LastEditTime: 2022-10-27 10:24:20
  */
 module.exports = {
   title: 'HonLant',
   description: 'Just playing around.',
+  base:'/honlant/',
   themeConfig: {
     logo: '/public/favicon.ico',
     // 展示搜索框
