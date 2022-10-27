@@ -4,7 +4,7 @@
  * @Author: hongweixun
  * @Date: 2022-10-22 09:35:55
  * @LastEditors: hongweixun
- * @LastEditTime: 2022-10-26 11:59:07
+ * @LastEditTime: 2022-10-27 14:18:23
 -->
 # Model模态框
 ## 示例图
@@ -15,7 +15,7 @@
 :::demo 完整的一个model
 ```vue
 <template>
-<hl-button type='primary' @click="show = true">点击展开</hl-model>
+<hl-button type='primary' @click="show = true">点击展开</hl-button>
 <hl-model :show="show" @close="modelClose" @confirm="modelConfirm">我是一个示例呀</hl-model>
 </template>
 <script lang="ts" setup>
@@ -37,7 +37,7 @@ import { ref } from 'vue'
 
 自定义title<br>
 <br>
-<hl-button type='primary' @click="show = true">点击展开</hl-model>
+<hl-button type='primary' @click="show = true">点击展开</hl-button>
 <hl-model :show="show" @close="modelClose" @confirm="modelConfirm" title="自定义标题">我是一个示例呀</hl-model>
 </template>
 <script lang="ts" setup>
@@ -60,7 +60,7 @@ import { ref } from 'vue'
 <template>
 也可以去除btn<br>
 <br>
-<hl-button type='primary' @click="show = true">点击展开</hl-model>
+<hl-button type='primary' @click="show = true">点击展开</hl-button>
 <hl-model :show="show" @close="modelClose" @confirm="modelConfirm" :showBtn="false">我是一个示例呀</hl-model>
 </template>
 <script lang="ts" setup>
